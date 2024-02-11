@@ -1,0 +1,64 @@
+#intro {
+  height: calc(100vh - 4ram);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.homeContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.greetings {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.name {
+  color: rgb(176, 54, 72);
+}
+
+.homeParagraph {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 840px) {
+  .homeBackGround {
+    right: -10rw;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .greetings {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homeBackGround {
+    right: -20rw;
+  }
+}
+
+.layout {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../../assets/svg/layer_1.svg");
+}
