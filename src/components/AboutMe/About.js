@@ -11,28 +11,35 @@ export const About = () => {
       <br />
       <span className="aboutDescription">
         I am a young passionate junior software engineer looking foward to work
-        on software development and become a full-stack developer one day. My
-        strong area of the development is Back-End development, but I can also
-        deliver a good performance at the Front-End area. I am versitile,
-        beacuse I am able to work with different technologies and -if the
-        programm requires it- willing to learn new ones.
+        on a software development company and become a senior Full-Stack
+        developer one day. Back-End is where I perfom the best, but, I also have
+        the knowledge to give a good perfmonce in Front-End giving me a good
+        versatility in software development. My second strength is that I am
+        able to work with a extense variety of tecnologies and I am always
+        willing to learn new ones to maintain me updated.
       </span>
       <div className="skillList">
         <div className="skill">
           <img src={techImg} alt="Technologies" className="skillImage" />
+          <br />
           <div className="skillText">
-            <h2>Technologies</h2>
+            <h2 className="subTitle">Technologies</h2>
+            <br />
             <p>
-              -Programming Languages: Java, JavaScript, HTML, CSS, PL/SQL,
-              MySQL, C++, C# and ASSEMBLY.
+              <span className="specialTxt">-Programming Languages: </span> Java,
+              JavaScript, HTML, CSS, PL/SQL, MySQL, C++, C# and ASSEMBLY.
             </p>
+            <br />
             <p>
-              -FrameWorks & Libraries: React Native, NodeJS, LibGDX, ASP
-              .NET/ASP.NET Core, SpringBoot, Maven and Bootstrap.
+              <span className="specialTxt">-FrameWorks & Libraries: </span>{" "}
+              React Native, NodeJS, LibGDX, ASP .NET/ASP.NET Core, SpringBoot,
+              Maven and Bootstrap.
             </p>
+            <br />
             <p>
-              -Development Enviroments: IntelliJ IDEA, VS CODE , VS 2022, SQL
-              Management Server, Oracle and MSX88.
+              <span className="specialTxt">-Development Enviroments: </span>
+              IntelliJ IDEA, VS CODE , VS 2022, SQL Management Server, Oracle
+              and MSX88.
             </p>
           </div>
         </div>
@@ -42,33 +49,42 @@ export const About = () => {
             alt="Web & App Development"
             className="skillImage"
           />
+          <br />
           <div className="skillText">
-            <h2>App Development</h2>
+            <h2 className="subTitle">App Development</h2>
+            <br />
             <p>
               {" "}
-              Thanks to my personal career intrests and to my college focus, I
-              already have experience in all kinds of app development especially
-              in web app development. I was able to develop 3 different web apps
-              as college projects, those are: PetHotel (WebApp for a fictional
-              pet hotel & veterinary), El Bazar de las Sorpresas (WebApp for a
-              fictional bookstore ) and HelloApp! (WebApp which simulated a chat
-              app). <br />
-              Still, I perform greatly in app development thanks to a main
-              project that I was part of, Dungeon Master (A 2D dungeon leveled
-              game with a class system based on: a knight, an archer and a
-              hunter).
+              I was able to develop with great success 2 different web apps as
+              college projects, those are:{" "}
+              <span className="specialTxt">
+                {" "}
+                El Bazar de las Sorpresas{" "}
+              </span>{" "}
+              (WebApp for a fictional bookshop ) and{" "}
+              <span className="specialTxt">HelloApp! </span> (WebApp which
+              simulated a social app based on chat). <br />
+              Some other proyects that make me experience not only as a
+              devoloper but also as a leader where a 2d Dungeon videogame called
+              <span className="specialTxt"> Dungeon Master </span> and{" "}
+              <span className="specialTxt">PetHotel </span>
+              (WebApp for a pet hotel & veterinary).
             </p>
           </div>
         </div>
         <div className="skill">
           <img src={skillsImg} alt="Other Skills" className="skillImage" />
+          <br />
           <div className="skillText">
-            <h2>Other Skills</h2>
+            <h2 className="subTitle">Other Skills</h2>
+            <br />
             <p>
               In this section, I will remark that I have expirience working at
-              SCRUM Based projects and also list my soft-skills, which are as
-              follows:
+              <span className="specialTxt"> SCRUM based</span> projects and also
+              list my <span className="specialTxt">soft-skills</span> , which
+              are as follows:
             </p>
+            <br />
             <p>- Problem-solving.</p>
             <p>- Flexibility.</p>
             <p>- Teamwork.</p>

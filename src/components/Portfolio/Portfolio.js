@@ -1,15 +1,16 @@
 import React from "react";
 import "./Portfolio.css";
 import github from "../../assets/assets/github-mark.png";
-import project1 from "../../assets/assets/bazarsorpresassc.PNG";
-import project2 from "../../assets/assets/helloappsc.PNG";
+import project1 from "../../assets/assets/dungeonmastersc.PNG";
+import project2 from "../../assets/assets/bazarsorpresassc.PNG";
 import project3 from "../../assets/assets/pethotelsc.PNG";
-import project4 from "../../assets/assets/dungeonmastersc.PNG";
+import project4 from "../../assets/assets/helloappsc.PNG";
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2 className="portfolioTitle">Portfolio</h2>
+      <br />
       <span className="portfolioDescription">
         Here you will be able to find pictures overviews of my mentioned
         projects. As well to a button to go for my GitHub repository filled with
@@ -19,6 +20,7 @@ const Portfolio = () => {
         </a>{" "}
         to look at my CV.
       </span>
+      <br />
       <div className="portfolioImages">
         <img src={project1} alt="" className="portfolioImage" />
         <img src={project2} alt="" className="portfolioImage" />

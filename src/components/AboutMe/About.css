@@ -15,16 +15,19 @@
   font-weight: 600;
   padding-top: 3rem;
   margin-bottom: 1.5rem;
+  color: rgb(176, 54, 72);
 }
 
 .aboutDescription {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: large;
   max-width: 51rem;
   padding: 0.6rem;
 }
 
 .skillList {
+  display: flex;
+  flex-direction: row;
   margin: 1.5rem;
   width: 100vw;
   max-width: 80%;
@@ -33,6 +36,7 @@
 
 .skill {
   display: flex;
+  flex-direction: column;
   margin: 1rem;
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
@@ -49,6 +53,12 @@
 .skillText > p {
   font-size: 1rem;
   font-weight: 200;
+}
+
+.subTitle,
+.specialTxt {
+  color: rgb(176, 54, 72);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 720px) {
