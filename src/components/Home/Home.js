@@ -7,15 +7,18 @@ const Home = () => {
       <div className="homeContent">
         <span className="greetings">Hi!</span>
         <span className="homeTxt">
-          I'm <span className="name">Ignacio</span>
+          I'm <span className="name">Ignacio Zelada</span>
           <br />
           Junior Software Developer
         </span>
         <p className="homeParagraph">
-          I am a junior developer centered on creating applications with an
-          appealing UI that can also offer the best UX possible, thru <br /> the
-          best implementation of services.
-        </p>{" "}
+          I am junior developer centered in learning the newest tecnologies &
+          best practices in multiple fields. <br /> I had have expirience in
+          developing multiple kinds of aplications, from Web Applications to
+          even Terminal <br />
+          Applications applaying different technolgies in both Front and Back
+          Ends of the projects.
+        </p>
       </div>
     </section>
   );

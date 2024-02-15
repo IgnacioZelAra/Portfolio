@@ -42,7 +42,7 @@ function Navbar() {
           duration={500}
           className="menuListItem"
         >
-          Projects
+          Portfolio
         </Link>
       </div>
       <button

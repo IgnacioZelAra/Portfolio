@@ -14,11 +14,12 @@
 .portfolioTitle {
   margin: 1rem 0;
   font-size: 3rem;
+  color: rgb(176, 54, 72);
 }
 
 .portfolioDescription {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: large;
   max-width: 45rem;
 }
 
@@ -63,6 +64,7 @@
 
 .cv {
   color: rgb(176, 54, 72);
+  font-weight: bold;
   border-bottom: 1px solid rgb(176, 54, 72);
 }
 

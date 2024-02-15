@@ -31,10 +31,13 @@ const Contact = () => {
   return (
     <section id="contact">
       <h1 className="contactTitle">Contact Me</h1>
+      <br />
       <span className="contactDescription">
         If you are intrested, please fill out the form below to send me an email
-        & discuss job opportunities or click in the social media icons as well.
+        & <br /> discuss job opportunities or click in the social media icons as
+        well.
       </span>
+      <br />
       <form ref={form} onSubmit={sendEmail} className="contactForm">
         <input
           type="text"
