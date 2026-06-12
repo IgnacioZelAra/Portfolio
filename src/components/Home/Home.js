@@ -9,15 +9,18 @@ const Home = () => {
         <span className="homeTxt">
           I'm <span className="name">Ignacio Zelada</span>
           <br />
-          Junior Software Developer
+          Software Engineer
         </span>
         <p className="homeParagraph">
-          I am junior developer centered in learning the newest tecnologies &
-          best practices in multiple fields. <br /> I had have expirience in
-          developing multiple kinds of aplications, from Web Applications to
-          even Terminal <br />
-          Applications applaying different technolgies in both Front and Back
-          Ends of the projects.
+          I build software that works — and works well. From enterprise ERP
+          platforms in the insurance industry to public-sector data dashboards{" "}
+          <br />
+          reaching hundreds of users, I bring real production experience to
+          every project. Whether you need a reliable backend, a clean and
+          responsive frontend,
+          <br /> or a full-stack solution, I adapt fast, collaborate in Scrum
+          teams, and deliver results that matter. Let's build something great
+          together.
         </p>
       </div>
     </section>

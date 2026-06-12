@@ -10,13 +10,14 @@ export const About = () => {
       <span className="aboutTitle">About me</span>
       <br />
       <span className="aboutDescription">
-        I am a young passionate junior software engineer looking foward to work
-        on a software development company and become a senior Full-Stack
-        developer one day. Back-End is where I perfom the best, but, I also have
-        the knowledge to give a good perfmonce in Front-End giving me a good
-        versatility in software development. My second strength is that I am
-        able to work with a extense variety of tecnologies and I am always
-        willing to learn new ones to maintain me updated.
+        Software Engineer with hands-on experience in Full-Stack, frontend, and
+        desktop application development using modern technologies. I have worked
+        on ERP systems for the insurance sector and public-sector data
+        visualization platforms, contributing to scalable software solutions,
+        responsive interfaces, and enterprise workflows. Back-End is where I
+        perform best, but I am equally comfortable on the Front-End, which gives
+        me strong versatility across the stack. I am always eager to learn new
+        technologies and keep growing within the industry.
       </span>
       <div className="skillList">
         <div className="skill">
@@ -27,19 +28,28 @@ export const About = () => {
             <br />
             <p>
               <span className="specialTxt">-Programming Languages: </span> Java,
-              JavaScript, HTML, CSS, PL/SQL, MySQL, C++, C# and ASSEMBLY.
+              C#, TypeScript, JavaScript, Python, C++, GDScript, HTML5, CSS3.
             </p>
             <br />
             <p>
-              <span className="specialTxt">-FrameWorks & Libraries: </span>{" "}
-              React Native, NodeJS, LibGDX, ASP .NET/ASP.NET Core, SpringBoot,
-              Maven and Bootstrap.
+              <span className="specialTxt">-Frameworks & Libraries: </span>{" "}
+              React, Angular, Spring Boot, .NET Framework, REST APIs, JWT
+              Authentication, Spring Security, WinForms/WPF.
             </p>
             <br />
             <p>
-              <span className="specialTxt">-Development Enviroments: </span>
-              IntelliJ IDEA, VS CODE , VS 2022, SQL Management Server, Oracle
-              and MSX88.
+              <span className="specialTxt">-Databases: </span> SQL Server,
+              MySQL, Oracle SQL, MongoDB.
+            </p>
+            <br />
+            <p>
+              <span className="specialTxt">-DevOps & Tools: </span> Git, GitHub,
+              Azure DevOps, GitHub Actions, CI/CD Pipelines, Power BI.
+            </p>
+            <br />
+            <p>
+              <span className="specialTxt">-Testing & QA: </span> JUnit, REST
+              Assured, Selenium, Jest, Apache JMeter, Qodana.
             </p>
           </div>
         </div>
@@ -54,21 +64,34 @@ export const About = () => {
             <h2 className="subTitle">App Development</h2>
             <br />
             <p>
-              {" "}
-              I was able to develop with great success 2 different web apps as
-              college projects, those are:{" "}
+              At{" "}
               <span className="specialTxt">
-                {" "}
-                El Bazar de las Sorpresas{" "}
-              </span>{" "}
-              (WebApp for a fictional bookshop ) and{" "}
-              <span className="specialTxt">HelloApp! </span> (WebApp which
-              simulated a social app based on chat). <br />
-              Some other proyects that make me experience not only as a
-              devoloper but also as a leader where a 2d Dungeon videogame called
-              <span className="specialTxt"> Dungeon Master </span> and{" "}
-              <span className="specialTxt">PetHotel </span>
-              (WebApp for a pet hotel & veterinary).
+                Ministerio de Trabajo y Seguridad Social (MTSS)
+              </span>
+              , I designed and developed a frontend solution to visualize a
+              Power BI application for a Social and Solidarity Economy
+              observatory, implementing 7 interactive dashboards covering all
+              Costa Rican provinces.
+            </p>
+            <br />
+            <p>
+              During my internship at{" "}
+              <span className="specialTxt">Desa Seguros</span>, I contributed to{" "}
+              <span className="specialTxt">SASEG</span>, an insurance ERP
+              platform serving 15+ companies, helping reduce manual prospect
+              contact operations by 85%.
+            </p>
+            <br />
+            <p>
+              University projects include{" "}
+              <span className="specialTxt">El Bazar de las Sorpresas</span> (a
+              fictional bookshop WebApp),{" "}
+              <span className="specialTxt">HelloApp!</span> (a social chat
+              WebApp),{" "}
+              <span className="specialTxt">Dungeon Master</span> (a 2D dungeon
+              video game), and{" "}
+              <span className="specialTxt">PetHotel</span> (a pet hotel &amp;
+              veterinary WebApp).
             </p>
           </div>
         </div>
@@ -79,20 +102,34 @@ export const About = () => {
             <h2 className="subTitle">Other Skills</h2>
             <br />
             <p>
-              In this section, I will remark that I have expirience working at
-              <span className="specialTxt"> SCRUM based</span> projects and also
-              list my <span className="specialTxt">soft-skills</span> , which
-              are as follows:
+              I hold a{" "}
+              <span className="specialTxt">
+                Scrum Foundation Professional Certificate (SFPC)
+              </span>{" "}
+              from SCRUMstudy and have experience working in Scrum environments
+              across both professional and academic projects.
             </p>
             <br />
-            <p>- Problem-solving.</p>
-            <p>- Flexibility.</p>
-            <p>- Teamwork.</p>
+            <p>
+              I am fluent in{" "}
+              <span className="specialTxt">Spanish</span> (native),{" "}
+              <span className="specialTxt">English</span> (C1, Cambridge B2
+              First – Grade A), and have beginner knowledge of{" "}
+              <span className="specialTxt">Japanese</span> (A1).
+            </p>
+            <br />
+            <p>
+              My <span className="specialTxt">soft skills</span> include:
+            </p>
+            <br />
+            <p>- Problem Solving.</p>
+            <p>- Team Collaboration.</p>
+            <p>- Communication.</p>
+            <p>- Adaptability.</p>
             <p>- Leadership.</p>
-            <p>- Patience.</p>
             <p>- Resilience.</p>
-            <p>- Communicative.</p>
-            <p>- Keen on learning.</p>
+            <p>- Continuous Learning.</p>
+            <p>- Analytical Thinking.</p>
           </div>
         </div>
       </div>
